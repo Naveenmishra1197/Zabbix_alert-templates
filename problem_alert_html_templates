@@ -1,0 +1,32 @@
+Problem: {EVENT.NAME}
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color:red;font-size:28px">PROBLEM Alert...</h1>
+
+<p style="font-size: 12px"><b>Problem name</b>: {EVENT.NAME}</p>
+
+<p style="font-size: 12px"><b>Problem started at {EVENT.TIME} on {EVENT.DATE}</p>
+
+<p style="font-size: 12px"><b>Host</b>: {HOST.NAME}</p>
+
+<p style="font-size: 12px"><b>Severity</b>: {EVENT.SEVERITY}</p>
+
+<p style="font-size: 12px"><b>Event age</b>: {EVENT.AGE}</p>
+
+<p style="font-size: 12px"><b>Event acknowledgement</b>: {EVENT.ACK.STATUS} </p>
+
+<p style="font-size: 12px"><b>Event acknowledgement history: </b>{EVENT.ACK.HISTORY}</p>
+
+<p style="font-size: 12px"><b>Event status</b>: {EVENT.STATUS}</p>
+
+<p style="font-size: 12px"><b>Original problem ID</b>: {EVENT.ID}
+{TRIGGER.URL}</p>
+
+<p style="font-size: 12px"><a href="https://zabbix.appventurez.com/tr_events.php?triggerid={TRIGGER.ID}&eventid={EVENT.ID}&filter_set=1" style="text-weight=200">Visit Event</a></p>
+
+<p style="font-size: 12px">Thanks & Regards, <br/>Appventurez Monitoring Server </p>
+
+</body>
+</html>

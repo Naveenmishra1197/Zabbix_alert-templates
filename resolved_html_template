@@ -1,0 +1,24 @@
+</html>Resolved: {EVENT.NAME}
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:green;font-size:28px">RECOVERY Alert...</h1>
+
+<p style="font-size: 12px">Problem has been resolved at {EVENT.RECOVERY.TIME} on {EVENT.RECOVERY.DATE}</p>
+<p style="font-size: 12px"><b>Problem name</b>: {EVENT.NAME}</p>
+<p style="font-size: 12px"><b>Host</b>:{HOST.NAME}</p>
+<p style="font-size: 12px"><b>Severity</b>: {EVENT.SEVERITY}</p>
+<p style="font-size: 12px"><b>Event value</b>:{EVENT.RECOVERY.VALUE} </p>
+<p style="font-size: 12px"><b>Event status</b>:{EVENT.RECOVERY.STATUS} </p>
+
+<p style="font-size: 12px"><b>Original problem ID</b>: {EVENT.ID} 
+{TRIGGER.URL} </p>
+
+
+<p style="font-size: 12px"><a href="https://zabbix.Appventurez.com/tr_events.php?triggerid={TRIGGER.ID}&eventid={EVENT.ID}&filter_set=1" style="text-weight=200">Visit Event</a></p>
+
+<p style="font-size: 12px">Thanks & Regards, <br/>Appventurez Monitoring Server </p>
+
+</body>
